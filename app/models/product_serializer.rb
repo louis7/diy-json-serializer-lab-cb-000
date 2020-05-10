@@ -10,7 +10,6 @@ class ProductSerializer < ApplicationRecord
     serialized_product += '"inventory": "' + product.inventory + '", '
     serialized_product += '"price": "' + product.price + '", '
 
-    # and end with the close brace
     serialized_product += '}'
   end
 end
